@@ -1,0 +1,87 @@
+.App {
+  text-align: justify;
+}
+
+.App-logo {
+  height: auto;
+  pointer-events: fill;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #0755f3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgba(247, 22, 14, 0.952);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.card {
+  width: 18rem;
+  color: rgb(1, 2, 14);
+  float: left;
+  margin: 10px;
+  border: 2px solid rgb(223, 19, 19);
+}
+
+.badge{
+  float: right;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(236, 5, 5, 0.952);
+  transform: scale(1.05);
+}
+
+.user-form{
+  border: 2px solid rgb(245, 1, 1);
+  border-radius: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 50px;
+  transform: translate(-50%, -50%);
+}
+
+.add-btn{
+  border: 2px solid rgb(1, 25, 245);
+  color: blue;
+  left: 50%;
+}
+
+.navbar-brand
+{
+  color : rgb(255, 0, 0);
+  font-weight: bold;
+  font-size: x-large;
+  margin-left: initial;
+}
+
+.nav-item
+{
+  
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
